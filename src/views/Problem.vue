@@ -14,7 +14,7 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'Team',
+  name: 'Problem',
   components: {
     
   }

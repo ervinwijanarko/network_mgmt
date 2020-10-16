@@ -42,8 +42,8 @@ data(){
         drawer: false,
         links : [
             { icon : 'mdi-view-dashboard', text:'Dashboard', route:'/'},
-            { icon : 'mdi-folder', text:'My Projects', route:'/project'},
-            { icon : 'mdi-account-convert', text:'Team', route:'/team'}
+            { icon : 'mdi-folder', text:'Devices', route:'/devices'},
+            { icon : 'mdi-account-convert', text:'Problem', route:'/problem'}
         ]
     }
 }

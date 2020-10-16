@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Dashboard from '../views/Dashboard.vue'
-import Project from '../views/Project.vue'
-import Team from '../views/Team.vue'
+import Device from '../views/Device.vue'
+import Problem from '../views/Problem.vue'
 
 Vue.use(VueRouter)
 
@@ -13,14 +13,14 @@ const routes = [
     component: Dashboard
   },
   {
-    path: '/project',
-    name: 'Project',
-    component: Project
+    path: '/device',
+    name: 'Devices',
+    component: Device
   },
   {
-    path: '/team',
-    name: 'Team',
-    component: Team
+    path: '/problem',
+    name: 'Problems',
+    component: Problem
   }
 ]
 
